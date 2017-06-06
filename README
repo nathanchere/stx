@@ -6,6 +6,15 @@ stx is a fork of st which sucks even less.
 
 Original: http://st.suckless.org / http://git.suckless.org/st
 
+Installation
+-------
+
+    git clone git@github.com:nathanchere/stx.git /tmp/stx
+    make
+    sudo make install
+
+Now run with `st`
+
 Changes from st
 -------
 
@@ -15,6 +24,6 @@ Changes from st
 * Font set to Iosevka Nerd Font
 * Tab size reduced from 8 spaces to 2
 * Default shell changed from bash to fish
-* 
-
+* Character horizontal kerning scaled to 0.5
+* Word delimiters extended to: ` `'\"()[]{}<>_-:;,.`
 
