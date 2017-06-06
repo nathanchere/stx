@@ -38,14 +38,7 @@ char *argv0;
 #define Glyph Glyph_
 #define Font Font_
 
-#if   defined(__linux)
- #include <pty.h>
-#elif defined(__OpenBSD__) || defined(__NetBSD__) || defined(__APPLE__)
- #include <util.h>
-#elif defined(__FreeBSD__) || defined(__DragonFly__)
- #include <libutil.h>
-#endif
-
+#include <pty.h>
 
 /* XEMBED messages */
 #define XEMBED_FOCUS_IN  4
