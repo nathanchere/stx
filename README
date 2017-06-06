@@ -19,6 +19,9 @@ Installation
 
 Now run with `st`
 
+NOTE: you still need `freetype2` headers for unicode support, and transparency
+ will only work when running a compositor like `compton`.
+
 Changes from st
 -------
 
