@@ -4,7 +4,11 @@ st is a simple terminal emulator for X which sucks less.
 
 stx is a fork of st which sucks even less.
 
-Original: http://st.suckless.org / http://git.suckless.org/st
+Based on 0.6, because reasons. If you need newer, feel free to refer to the original.
+
+* http://st.suckless.org
+
+* http://git.suckless.org/st
 
 Installation
 -------
