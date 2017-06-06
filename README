@@ -1,34 +1,20 @@
-st - simple terminal
+stx - simple terminal x
 --------------------
 st is a simple terminal emulator for X which sucks less.
 
+stx is a fork of st which sucks even less.
 
-Requirements
-------------
-In order to build st you need the Xlib header files.
+Original: http://st.suckless.org / http://git.suckless.org/st
 
-
-Installation
-------------
-Edit config.mk to match your local setup (st is installed into
-the /usr/local namespace by default).
-
-Afterwards enter the following command to build and install st (if
-necessary as root):
-
-    make clean install
-
-
-Running st
-----------
-If you did not install st with make clean install, you must compile
-the st terminfo entry with the following command:
-
-    tic -s st.info
-
-See the man page for additional details.
-
-Credits
+Changes from st
 -------
-Based on Aurélien APTEL <aurelien dot aptel at gmail dot com> bt source code.
+
+* Background transparency support
+* Background opacity set to 0xCC
+* Copy to clipboard on select
+* Font set to Iosevka Nerd Font
+* Tab size reduced from 8 spaces to 2
+* Default shell changed from bash to fish
+* 
+
 

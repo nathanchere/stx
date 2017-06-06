@@ -1,30 +1,16 @@
-/* See LICENSE file for copyright and license details. */
-
-/*
- * appearance
- *
- * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
- */
-static char font[] = "Liberation Mono:pixelsize=12:antialias=false:autohint=false";
-static int borderpx = 2;
-static char shell[] = "/bin/sh";
+static char font[] = "Iosevka Nerd Font:size=18:antialias=true:autohint=true";
+static int borderpx = 0;
+static char shell[] = "/bin/fish";
 static char *utmp = NULL;
 static char stty_args[] = "stty raw -echo -iexten echonl";
 
 /* identification sequence returned in DA and DECID */
 static char vtiden[] = "\033[?6c";
 
-/* Kerning / character bounding-box multipliers */
-static float cwscale = 1.0;
+static float cwscale = 0.5;
 static float chscale = 1.0;
 
-/*
- * word delimiter string
- *
- * More advanced example: " `'\"()[]{}"
- */
-static char worddelimiters[] = " ";
-
+static char worddelimiters[] = " `'\"()[]{}<>_-:;,.";
 /* selection timeouts (in milliseconds) */
 static unsigned int doubleclicktimeout = 300;
 static unsigned int tripleclicktimeout = 600;
@@ -41,22 +27,13 @@ static unsigned int actionfps = 30;
  * attribute.
  */
 static unsigned int blinktimeout = 800;
-
-/*
- * thickness of underline and bar cursors
- */
 static unsigned int cursorthickness = 2;
-
-/*
- * bell volume. It must be a value between -100 and 100. Use 0 for disabling
- * it
- */
-static int bellvolume = 0;
+static int bellvolume = 100;
 
 /* TERM value */
 static char termname[] = "st-256color";
 
-static unsigned int tabspaces = 8;
+static unsigned int tabspaces = 2;
 
 /* bg opacity */
 static const int alpha = 0xdd;
