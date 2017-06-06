@@ -31,5 +31,5 @@ NOTE: you still need `freetype2` headers for unicode support, and transparency
 * Tab size reduced from 8 spaces to 2
 * Default shell changed from bash to fish
 * Character horizontal kerning scaled to 0.5
-* Word delimiters extended to: ` `'\"()[]{}<>_-:;,.`
+* Word delimiters extended to: ` ``'\"()[]{}<>_-:;,.`
 
