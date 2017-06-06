@@ -1,5 +1,5 @@
-stx - simple terminal x
---------------------
+# stx - simple terminal x
+
 st is a simple terminal emulator for X which sucks less.
 
 stx is a fork of st which sucks even less.
@@ -10,8 +10,8 @@ Based on 0.6, because reasons. If you need newer, feel free to refer to the orig
 
 * http://git.suckless.org/st
 
-Installation
--------
+## Installation
+
 
     git clone git@github.com:nathanchere/stx.git /tmp/stx
     make
@@ -22,8 +22,7 @@ Now run with `st`
 NOTE: you still need `freetype2` headers for unicode support, and transparency
  will only work when running a compositor like `compton`.
 
-Changes from st
--------
+## Changes from st
 
 * Background transparency support
 * Background opacity set to 0xCC
