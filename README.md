@@ -25,11 +25,11 @@ NOTE: you still need `freetype2` headers for unicode support, and transparency
 ## Changes from st
 
 * Background transparency support
-* Background opacity set to 0xCC
+* Background opacity set to ~90%
 * Copy to clipboard on select
-* Font set to Iosevka Nerd Font
+* Font set to Iosevka Nerd Font (https://github.com/ryanoasis/nerd-fonts)
 * Tab size reduced from 8 spaces to 2
-* Default shell changed from bash to fish
+* Default shell changed from `bash` to `fish`
 * Character horizontal kerning scaled to 0.5
-* Word delimiters extended to: ` ``'\"()[]{}<>_-:;,.`
+* Word delimiters extended to: ` ``'"()[]{}<>_-:;,.`
 
